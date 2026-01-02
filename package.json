@@ -10,6 +10,8 @@
     "build": "tsc",
     "audit": "ts-node src/index.ts",
     "lead-package": "ts-node src/generate-lead-package.ts",
+    "batch-scan": "./batch-scan.sh",
+    "summary": "node summarize-leads.js",
     "start": "node dist/index.js",
     "dev": "ts-node src/index.ts"
   },
