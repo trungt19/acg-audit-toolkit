@@ -266,7 +266,7 @@ function generatePDF(result: ScanResult, outputPath: string): void {
      .text('Contact us for a free 30-minute consultation.', 70, 335);
   doc.fontSize(11).font('Helvetica-Bold').fillColor(navy).text('Teddy Thai, CPACC', 70, 355);
   doc.fontSize(10).font('Helvetica').fillColor('#333')
-     .text('teddy@accessiblecompliancegroup.com | (253) 732-3963', 70, 368);
+     .text('team@accessiblecompliancegroup.com | (253) 732-3963', 70, 368);
 
   doc.end();
   console.log(`  ✓ PDF saved: ${outputPath}`);
@@ -316,7 +316,7 @@ Best regards,
 Teddy Thai, CPACC
 Principal Consultant
 Accessible Compliance Group
-teddy@accessiblecompliancegroup.com
+team@accessiblecompliancegroup.com
 (253) 732-3963
 
 P.S. I've attached a detailed accessibility report. Happy to provide even more detail on our call.

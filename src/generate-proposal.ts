@@ -97,7 +97,7 @@ export function generateProposal(
 
   doc.fontSize(12)
      .text('Accessible Compliance Group', 50, 650, { align: 'center' })
-     .text('teddy@accessiblecompliancegroup.com | (253) 732-3963', 50, 670, { align: 'center' });
+     .text('team@accessiblecompliancegroup.com | (253) 732-3963', 50, 670, { align: 'center' });
 
   // ===== PAGE 2: EXECUTIVE SUMMARY =====
   doc.addPage();
@@ -271,7 +271,7 @@ export function generateProposal(
   doc.fillColor(navy).fontSize(12).font('Helvetica-Bold')
      .text('Teddy Thai, CPACC', 70, 475)
      .font('Helvetica')
-     .text('teddy@accessiblecompliancegroup.com | (253) 732-3963', 70, 490);
+     .text('team@accessiblecompliancegroup.com | (253) 732-3963', 70, 490);
 
   // Footer on all pages
   const range = doc.bufferedPageRange();

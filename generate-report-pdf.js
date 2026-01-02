@@ -220,7 +220,7 @@ doc.fontSize(11).font('Helvetica-Bold').fillColor(navy)
    .text('Teddy Thai, CPACC', 70, 645);
 doc.fontSize(10).font('Helvetica').fillColor('#333')
    .text('Principal Consultant, Accessible Compliance Group', 70, 658);
-doc.text('teddy@accessiblecompliancegroup.com  |  (253) 732-3963', 70, 671);
+doc.text('team@accessiblecompliancegroup.com  |  (253) 732-3963', 70, 671);
 
 // Page numbers
 const range = doc.bufferedPageRange();
